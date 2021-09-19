@@ -12,10 +12,11 @@ deploy:
     secure: $AWS_ACCESS_KEY
   secret_access_key:
     secure: $AWS_SECRET_KEY
-  region: us-east-2 #default region is us-east-1
-  app: testbeanstack #name of our EBS app
-  env: Testbeanstack-env #name of our EBS env
-  bucket_name: elasticbeanstalk-us-east-2-111841009838 #S3 bucket where artifacts are stored
+  region: "us-east-2" #default region is us-east-1
+  app: "testbeanstack" #name of our EBS app
+  env: "Testbeanstack-env" #name of our EBS env
+  bucket_name: "elasticbeanstalk-us-east-2-111841009838" #S3 bucket where artifacts are stored
+  # bucket_path: s3://elasticbeanstalk-us-east-2-111841009838/resources/test_beanstack/
   zip_file: typeorminit.zip
   verbose: true
   skip_cleanup: true
