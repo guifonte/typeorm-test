@@ -3,7 +3,7 @@ node_js:
   - "stable"
 
 script:
-  - zip -r <typeorminit.zip> dist .env package.json package-lock.json
+  - zip -r typeorminit.zip dist .env package.json package-lock.json
 
 deploy:
   provider: elasticbeanstalk
