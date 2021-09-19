@@ -19,3 +19,5 @@ deploy:
   zip_file: typeorminit.zip
   verbose: true
   skip_cleanup: true
+  on:
+    branch: main
