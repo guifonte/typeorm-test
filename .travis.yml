@@ -3,7 +3,8 @@ node_js:
   - "stable"
 
 script:
-  - zip -r typeorminit.zip dist package.json package-lock.json
+  - zip -r typeorminit.zip dist package.json         
+    package-lock.json
 
 deploy:
   provider: elasticbeanstalk
@@ -18,5 +19,3 @@ deploy:
   zip_file: typeorminit.zip
   verbose: true
   skip_cleanup: true
-  on:
-    branch: main
