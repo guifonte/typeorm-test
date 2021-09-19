@@ -16,5 +16,8 @@
    },
    "scripts": {
       "start": "ts-node src/index.ts"
+   },
+   "engines": {
+      "node": ">=14.0.0"
    }
 }
