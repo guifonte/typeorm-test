@@ -16,6 +16,7 @@
    },
    "scripts": {
       "build": "tsc",
+      "postinstall": "npx tsc",
       "start": "ts-node src/index.ts"
    },
    "engines": {
