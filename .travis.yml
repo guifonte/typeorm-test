@@ -9,9 +9,9 @@ script:
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: $AWS_ACCESS_KEY
+    secure: "$AWS_ACCESS_KEY"
   secret_access_key:
-    secure: $AWS_SECRET_KEY
+    secure: "$AWS_SECRET_KEY"
   region: "us-east-2" #default region is us-east-1
   app: "test_beanstack" #name of our EBS app
   env: "Testbeanstack-env" #name of our EBS env
